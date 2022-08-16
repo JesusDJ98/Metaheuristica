@@ -2,15 +2,10 @@
 
 **Greedy**
 <p align="center">
-	<p align="left">
-		Algoritmo voraz, basado en métodos constructivos, que devuelve 
-		una solución cercana a la óptima en un tiempo razonable, partiendo de una 
-		solución inicial vacía y va añadiendo componentes hasta construir la solución
-		(Heurística constructiva), en este caso cogiendo las ciudades más cercanas a la 
-		actual, comenzando por la ciudad de índice 1.
-		<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/Greedy.JPG" align="left" width="400" />
-	
-	</p>
+	<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/Greedy.JPG" align="left" />
+	Algoritmo voraz, basado en métodos constructivos, que devuelve una solución cercana a la óptima en un tiempo razonable, 
+	partiendo de una solución inicial vacía y va añadiendo componentes hasta construir la solución (Heurística constructiva), 
+	en este caso cogiendo las ciudades más cercanas a la actual, comenzando por la ciudad de índice 1.
 </p>
 
 **Búsqueda Aleatoria**

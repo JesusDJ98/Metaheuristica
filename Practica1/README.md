@@ -31,10 +31,11 @@ mejore. Consideramos solución vecina, todas aquellas soluciones incluidas en el
 solución actual, que están delimitadas por un operador de generación de soluciones, ya sea 
 por vecindad o proximidad, por eso a esta metaheurística de búsqueda se le asocia el uso de 
 estructuras de entorno.
+
 Estos casos, se ha decidido que consideramos vecinos a aquellas soluciones que se 
 diferencien de la actual, con solamente un intercambio, Opt-2.
 
-**_Mejor Vecino_**
+	**_Mejor Vecino_**
 
 En este caso, genera completamente todo su entorno y selecciona la mejor solución 
 vecina, y luego tiene dos opciones, ese mejor vecino supera a la solución actual o no, si la 
@@ -48,7 +49,7 @@ partida, y la probabilidad de que se el óptimo global, es pequeña (1/nº de ó
 
 
 	
-*Primer Mejor Vecino*
+	**_Primer Mejor Vecino_**
 
 Este algoritmo es muy parecido al anterior, lo único que cambia es que no coge el mejor vecino 
 de su entorno de búsqueda, sino el primer vecino que mejore al actual, este cambio provoca que 
@@ -69,6 +70,7 @@ y se va reduciendo en cada iteración, para intensificar la búsqueda al final (
 nos aporta que evitemos bloqueos con los óptimos locales, y que controlemos el estudio de 
 entornos peores, pues si aceptamos siempre soluciones peores, más que una solución sería
 crear otro problema.
+
 Este algoritmo funciona generando una cantidad de soluciones vecinas(L), y coge las 
 soluciones que mejoren la solución actual o aquellas que superen el criterio de aceptación, en 
 este caso es que un numero aleatorio no supere un valor que depende de la temperatura, que 

@@ -1,6 +1,6 @@
 # Algoritmos basados en Entornos y Trayectorias
 
-**Greedy**
+1.**Greedy**
 <p align="center">
 	<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/Greedy.JPG" align="left" />
 	Algoritmo voraz, basado en métodos constructivos, que devuelve una solución cercana a la óptima en un tiempo razonable, 
@@ -10,7 +10,7 @@
 
 
 
-**Búsqueda Aleatoria**
+2.**Búsqueda Aleatoria**
 <p align="center">
 	Algoritmo que elige de manera aleatoria la solución y se queda con la mejor solución 
 	encontrada, por lo que su entorno es todo el espacio de búsqueda. Este algoritmo lo 
@@ -22,7 +22,7 @@
 
 
 
-**Búsqueda Local**
+3.**Búsqueda Local**
 
 <p align="center">
 Metaheurística basada en trayectorias, partiendo de una solución inicial, van 
@@ -31,14 +31,11 @@ mejore. Consideramos solución vecina, todas aquellas soluciones incluidas en el
 solución actual, que están delimitadas por un operador de generación de soluciones, ya sea 
 por vecindad o proximidad, por eso a esta metaheurística de búsqueda se le asocia el uso de 
 estructuras de entorno.
-</p>
-<p align="center">
-Estos casos, se ha decidido que consideramos vecinos a aquellas soluciones que se 
+	Estos casos, se ha decidido que consideramos vecinos a aquellas soluciones que se 
 diferencien de la actual, con solamente un intercambio, Opt-2.
 </p>
 
 
-<p align="center">
 **_Mejor Vecino_**
 
 En este caso, genera completamente todo su entorno y selecciona la mejor solución 
@@ -50,8 +47,8 @@ partida, y la probabilidad de que se el óptimo global, es pequeña (1/nº de ó
 
 <br>
 <img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/MejorVecino.JPG" />
-</p>
 	
+
 **_Primer Mejor Vecino_**
 	
 Este algoritmo es muy parecido al anterior, lo único que cambia es que no coge el mejor vecino 

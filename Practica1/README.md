@@ -26,17 +26,17 @@
 **Búsqueda Local**
 
 <p align="center">
-	Metaheurística basada en trayectorias, partiendo de una solución inicial, van 
-	iterativamente tratando de reemplazar la solución actual, por una solución vecina que la 
-	mejore. Consideramos solución vecina, todas aquellas soluciones incluidas en el entorno de la 
-	solución actual, que están delimitadas por un operador de generación de soluciones, ya sea 
-	por vecindad o proximidad, por eso a esta metaheurística de búsqueda se le asocia el uso de 
-	estructuras de entorno.
+Metaheurística basada en trayectorias, partiendo de una solución inicial, van 
+iterativamente tratando de reemplazar la solución actual, por una solución vecina que la 
+mejore. Consideramos solución vecina, todas aquellas soluciones incluidas en el entorno de la 
+solución actual, que están delimitadas por un operador de generación de soluciones, ya sea 
+por vecindad o proximidad, por eso a esta metaheurística de búsqueda se le asocia el uso de 
+estructuras de entorno.
 
-	Estos casos, se ha decidido que consideramos vecinos a aquellas soluciones que se 
-	diferencien de la actual, con solamente un intercambio, Opt-2.
+Estos casos, se ha decidido que consideramos vecinos a aquellas soluciones que se 
+diferencien de la actual, con solamente un intercambio, Opt-2.
 
-	**_Mejor Vecino_**
+**_Mejor Vecino_**
 
 	En este caso, genera completamente todo su entorno y selecciona la mejor solución 
 	vecina, y luego tiene dos opciones, ese mejor vecino supera a la solución actual o no, si la 
@@ -50,7 +50,7 @@
 
 
 	
-	**_Primer Mejor Vecino_**
+**_Primer Mejor Vecino_**
 	
 	Este algoritmo es muy parecido al anterior, lo único que cambia es que no coge el mejor vecino 
 	de su entorno de búsqueda, sino el primer vecino que mejore al actual, este cambio provoca que 

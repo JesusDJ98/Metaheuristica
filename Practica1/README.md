@@ -9,7 +9,6 @@
 </p>
 
 
-<br>
 
 **Búsqueda Aleatoria**
 <p align="center">
@@ -35,6 +34,8 @@ estructuras de entorno.
 
 Estos casos, se ha decidido que consideramos vecinos a aquellas soluciones que se 
 diferencien de la actual, con solamente un intercambio, Opt-2.
+</p>
+
 
 **_Mejor Vecino_**
 
@@ -48,7 +49,6 @@ partida, y la probabilidad de que se el óptimo global, es pequeña (1/nº de ó
 <br>
 <img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/MejorVecino.JPG" />
 
-
 	
 **_Primer Mejor Vecino_**
 	
@@ -59,7 +59,10 @@ problema de los óptimo locales
 
 <br>
 <img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/PrimerMejorVecino.JPG" />
-</p>
+
+
+
+
 
 **Enfriamiento Simulado**
 
@@ -83,6 +86,7 @@ solución estudiada.
 <img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/EnfriamientoSimulado.JPG" />
 
 </p>
+
 
 
 **Búsqueda Tabú**

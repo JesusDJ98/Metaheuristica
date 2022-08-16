@@ -86,10 +86,12 @@ Metaheurística basada en trayectorias. Es un procedimiento de búsqueda por
 entornos, que además de permitir movimientos de empeoramiento, utiliza memoria 
 adaptativa, corto y largo plazo, para restringir o guiar la búsqueda, y estrategias especiales de 
 resolución de problemas, como lo son las técnicas de reinicialización.
+
 La memoria a corto plazo, o más conocida como lista tabú, sirve para restrigir las zonas 
 de búsqueda de forma inmediata, en cambio, la memoria a largo plazo, guía la búsqueda 
 posteriori, estudiando zonas no visitadas. Las técnicas de reinicialización, permiten estudiar 
 zonas distantes a la que nos encontramos para tener así un mayor conocimiento del problema.
+
 El algoritmo implementado, estudia en cada iteración una cantidad fija de vecinos 
 aleatorios(40), de los cuales nos quedamos con el mejor que no se encuentre en la lista tabú, y 
 lo vamos explotando, añadiendo el movimiento a nuestra lista tabú, y también actualizamos 

@@ -1,6 +1,6 @@
 # Algoritmos basados en Entornos y Trayectorias
 
-1.**Greedy**
+**Greedy**
 <p align="center">
 	<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/Greedy.JPG" align="left" />
 	Algoritmo voraz, basado en métodos constructivos, que devuelve una solución cercana a la óptima en un tiempo razonable, 
@@ -10,7 +10,7 @@
 
 
 
-2.**Búsqueda Aleatoria**
+**Búsqueda Aleatoria**
 <p align="center">
 	Algoritmo que elige de manera aleatoria la solución y se queda con la mejor solución 
 	encontrada, por lo que su entorno es todo el espacio de búsqueda. Este algoritmo lo 
@@ -37,8 +37,8 @@ diferencien de la actual, con solamente un intercambio, Opt-2.
 </p>
 
 
-<p align="center">
 **_Mejor Vecino_**
+<p align="center">
 <br>
 En este caso, genera completamente todo su entorno y selecciona la mejor solución 
 vecina, y luego tiene dos opciones, ese mejor vecino supera a la solución actual o no, si la 
@@ -52,15 +52,16 @@ partida, y la probabilidad de que se el óptimo global, es pequeña (1/nº de ó
 </p>
 
 **_Primer Mejor Vecino_**
-	
+<p align="center">
+<br>	
 Este algoritmo es muy parecido al anterior, lo único que cambia es que no coge el mejor vecino 
 de su entorno de búsqueda, sino el primer vecino que mejore al actual, este cambio provoca que 
 cambiemos de zona de búsqueda, por lo que no depende tanto de donde cae al inicio, pero sigue con el 
 problema de los óptimo locales
-
+<br>
 <br>
 <img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/PrimerMejorVecino.JPG" />
-
+</p>
 
 
 

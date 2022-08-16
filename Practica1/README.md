@@ -2,20 +2,21 @@
 
 **Greedy**
 <p align="center">
-	<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/Greedy.JPG" align="left" width="200" length="200" />
+	<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/Greedy.JPG" align="left" width="500" length="200" />
 	Algoritmo voraz, basado en métodos constructivos, que devuelve una solución cercana a la óptima en un tiempo razonable, 
 	partiendo de una solución inicial vacía y va añadiendo componentes hasta construir la solución (Heurística constructiva), 
 	en este caso cogiendo las ciudades más cercanas a la actual, comenzando por la ciudad de índice 1.
 </p>
 
 
-
+<br>
 **Búsqueda Aleatoria**
 <p align="center">
 	Algoritmo que elige de manera aleatoria la solución y se queda con la mejor solución 
 	encontrada, por lo que su entorno es todo el espacio de búsqueda. Este algoritmo lo 
 	estudiamos para ver los beneficios de los siguientes algoritmos, en concreto de las búsquedas 
 	locales.
+	<br>
 	<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/Aleatoria.JPG" />
 </p>
 
@@ -32,27 +33,28 @@ estructuras de entorno.
 Estos casos, se ha decidido que consideramos vecinos a aquellas soluciones que se 
 diferencien de la actual, con solamente un intercambio, Opt-2.
 
-	*Mejor Vecino*
+*Mejor Vecino*
 
-	En este caso, genera completamente todo su entorno y selecciona la mejor solución 
-	vecina, y luego tiene dos opciones, ese mejor vecino supera a la solución actual o no, si la 
-	supera la actualizamos y seguimos y sino, terminamos, pues nos encontramos frente a un 
-	óptimo local. Al coger el mejor vecino posible de nuestro entorno, nos hace muy dependentes 
-	de la posición de partida, ya que vamos al óptimo local más cercano a nuestro punto de 
-	partida, y la probabilidad de que se el óptimo global, es pequeña (1/nº de óptimos).
-
-	<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/MejorVecino.JPG" />
+En este caso, genera completamente todo su entorno y selecciona la mejor solución 
+vecina, y luego tiene dos opciones, ese mejor vecino supera a la solución actual o no, si la 
+supera la actualizamos y seguimos y sino, terminamos, pues nos encontramos frente a un 
+óptimo local. Al coger el mejor vecino posible de nuestro entorno, nos hace muy dependentes 
+de la posición de partida, ya que vamos al óptimo local más cercano a nuestro punto de 
+partida, y la probabilidad de que se el óptimo global, es pequeña (1/nº de óptimos).
+	
+<br>
+<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/MejorVecino.JPG" />
 
 	
-	*Primer Mejor Vecino*
+*Primer Mejor Vecino*
 
-	Este algoritmo es muy parecido al anterior, lo único que cambia es que no coge el mejor vecino 
-	de su entorno de búsqueda, sino el primer vecino que mejore al actual, este cambio provoca que 
-	cambiemos de zona de búsqueda, por lo que no depende tanto de donde cae al inicio, pero sigue con el 
-	problema de los óptimo locales
+Este algoritmo es muy parecido al anterior, lo único que cambia es que no coge el mejor vecino 
+de su entorno de búsqueda, sino el primer vecino que mejore al actual, este cambio provoca que 
+cambiemos de zona de búsqueda, por lo que no depende tanto de donde cae al inicio, pero sigue con el 
+problema de los óptimo locales
 
-	<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/PrimerMejorVecino.JPG" />
-
+<br>
+<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/PrimerMejorVecino.JPG" />
 
 
 **Enfriamiento Simulado**
@@ -71,6 +73,7 @@ este caso es que un numero aleatorio no supere un valor que depende de la temper
 ira decreciendo en cada iteración siguiendo el esquema Cauchy. Al final devuelve la mejor 
 solución estudiada.
 
+<br>
 <img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/EnfriamientoSimulado.JPG" />
 
 
@@ -95,7 +98,7 @@ tenemos 4 opciones, empezar desde una solucion aleatoria, desde la mejor soluci�
 o utilizando la memoria a largo plazo, y esta la utilizamos para diversificar (explorar) la 
 búsqueda, cogiendo las menos frecuentes.
 
-
+<br>
 <img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/Tabu.JPG" />
 
  

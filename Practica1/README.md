@@ -2,7 +2,7 @@
 
 **Greedy**
 <p align="center">
-	<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/Greedy.JPG" align="left" width="500" length="200" />
+	<img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/Greedy.JPG" align="left" />
 	Algoritmo voraz, basado en métodos constructivos, que devuelve una solución cercana a la óptima en un tiempo razonable, 
 	partiendo de una solución inicial vacía y va añadiendo componentes hasta construir la solución (Heurística constructiva), 
 	en este caso cogiendo las ciudades más cercanas a la actual, comenzando por la ciudad de índice 1.
@@ -10,6 +10,7 @@
 
 
 <br>
+
 **Búsqueda Aleatoria**
 <p align="center">
 	Algoritmo que elige de manera aleatoria la solución y se queda con la mejor solución 
@@ -33,7 +34,7 @@ estructuras de entorno.
 Estos casos, se ha decidido que consideramos vecinos a aquellas soluciones que se 
 diferencien de la actual, con solamente un intercambio, Opt-2.
 
-*Mejor Vecino*
+**_Mejor Vecino_**
 
 En este caso, genera completamente todo su entorno y selecciona la mejor solución 
 vecina, y luego tiene dos opciones, ese mejor vecino supera a la solución actual o no, si la 
@@ -44,6 +45,7 @@ partida, y la probabilidad de que se el óptimo global, es pequeña (1/nº de ó
 	
 <br>
 <img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/MejorVecino.JPG" />
+
 
 	
 *Primer Mejor Vecino*

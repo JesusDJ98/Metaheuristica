@@ -31,7 +31,6 @@ mejore. Consideramos solución vecina, todas aquellas soluciones incluidas en el
 solución actual, que están delimitadas por un operador de generación de soluciones, ya sea 
 por vecindad o proximidad, por eso a esta metaheurística de búsqueda se le asocia el uso de 
 estructuras de entorno.
-
 Estos casos, se ha decidido que consideramos vecinos a aquellas soluciones que se 
 diferencien de la actual, con solamente un intercambio, Opt-2.
 </p>

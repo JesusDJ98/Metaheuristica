@@ -37,8 +37,8 @@ diferencien de la actual, con solamente un intercambio, Opt-2.
 </p>
 
 
-<p align="center">
 **_Mejor Vecino_**
+<p align="center">
 <br>
 En este caso, genera completamente todo su entorno y selecciona la mejor solución 
 vecina, y luego tiene dos opciones, ese mejor vecino supera a la solución actual o no, si la 
@@ -51,8 +51,8 @@ partida, y la probabilidad de que se el óptimo global, es pequeña (1/nº de ó
 <img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/MejorVecino.JPG" />
 </p>
 
-<p align="center">
 **_Primer Mejor Vecino_**
+<p align="center">
 <br>	
 Este algoritmo es muy parecido al anterior, lo único que cambia es que no coge el mejor vecino 
 de su entorno de búsqueda, sino el primer vecino que mejore al actual, este cambio provoca que 

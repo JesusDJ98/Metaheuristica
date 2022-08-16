@@ -37,18 +37,19 @@ diferencien de la actual, con solamente un intercambio, Opt-2.
 </p>
 
 
+<p align="center">
 **_Mejor Vecino_**
-
+<br>
 En este caso, genera completamente todo su entorno y selecciona la mejor solución 
 vecina, y luego tiene dos opciones, ese mejor vecino supera a la solución actual o no, si la 
 supera la actualizamos y seguimos y sino, terminamos, pues nos encontramos frente a un 
 óptimo local. Al coger el mejor vecino posible de nuestro entorno, nos hace muy dependentes 
 de la posición de partida, ya que vamos al óptimo local más cercano a nuestro punto de 
 partida, y la probabilidad de que se el óptimo global, es pequeña (1/nº de óptimos).
-
+<br>
 <br>
 <img src="https://github.com/JesusDJ98/Metaheuristica/tree/main/Practica1/Imagenes/MejorVecino.JPG" />
-	
+</p>
 
 **_Primer Mejor Vecino_**
 	
